@@ -1,6 +1,7 @@
 import SiteHeader from "../components/SiteHeader";
 import SiteFooter from "../components/SiteFooter";
 import AnimatedContent from "../components/AnimatedContent";
+import FeatureShowcase from "../components/FeatureShowcase";
 export default function SitePage() {
   return (
     <>
@@ -463,6 +464,7 @@ export default function SitePage() {
           {"\n"}
         </section>
         {"\n\n"}
+        <FeatureShowcase />
         <section className={"section sec-lav jx-sec"}>
           {"\n  "}
           <div className={"wrap"}>
