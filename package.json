@@ -1,0 +1,20 @@
+{
+  "name": "webping-marketing",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "node scripts/prepare.mjs && next dev",
+    "build": "node scripts/prepare.mjs && next build --webpack",
+    "start": "next start"
+  },
+  "dependencies": {
+    "next": "^16.2.6",
+    "parse5": "^8.0.0",
+    "react": "^19.2.4",
+    "react-dom": "^19.2.4"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4.3.1",
+    "tailwindcss": "^4.3.1"
+  }
+}
