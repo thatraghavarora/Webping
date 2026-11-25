@@ -7,9 +7,9 @@ const badges = [
   ["Workflow automation", "M13 2 3 14h9l-1 8 10-12h-9z"],
 ];
 
-export default function TrustBadges() {
+function BadgeList({ duplicate = false }) {
   return (
-    <ul className="wp-badge-list" aria-label="WebPing highlights" tabIndex={0}>
+    <ul className="wp-badge-list" aria-label="WebPing highlights" aria-hidden={duplicate || undefined}>
       {badges.map(([label, icon], index) => (
         <li key={label} className={`chip-badge b${index + 1}`}>
           <svg className="cb-ico" viewBox="0 0 24 24" fill="none"
@@ -21,5 +21,16 @@ export default function TrustBadges() {
         </li>
       ))}
     </ul>
+  );
+}
+
+export default function TrustBadges() {
+  return (
+    <div className="wp-badge-window" tabIndex={0}>
+      <div className="wp-badge-track">
+        <BadgeList />
+        <BadgeList duplicate />
+      </div>
+    </div>
   );
 }

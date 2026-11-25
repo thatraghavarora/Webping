@@ -230,7 +230,7 @@ export default function SitePage() {
                 {"\n      "}
                 <p className={"logos-label"}>{"Trusted by teams at"}</p>
                 {"\n      "}
-                <div className={"logos-marquee"}>
+                <div className={"logos-marquee"} tabIndex={0}>
                   {"\n        "}
                   <div className={"logos-track"}>
                     {"\n          "}

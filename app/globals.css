@@ -1,18 +1,54 @@
 @import "tailwindcss/theme.css" layer(theme);
 @import "tailwindcss/utilities.css" layer(utilities);
 
+.wp-badge-window { width: 100%; min-width: 0; overflow: hidden; }
+.wp-badge-track {
+  display: flex;
+  width: max-content;
+  min-width: 200%;
+  animation: wp-trust-slide 28s linear infinite reverse;
+}
 .wp-badge-list {
   display: flex;
-  max-width: 100%;
-  overflow-x: auto;
-  scroll-snap-type: x proximity;
+  flex: 1 0 max-content;
+  justify-content: space-around;
   gap: .75rem;
   list-style: none;
   margin: 0;
   padding: .25rem;
   white-space: nowrap;
 }
-.wp-badge-list > li { flex: none; scroll-snap-align: start; }
+.wp-badge-list > li { flex: none; }
+
+.client-logos .logos-track {
+  min-width: 200%;
+  animation: wp-trust-slide 26s linear infinite;
+}
+.client-logos .logos-row { flex: 1 0 max-content; justify-content: space-around; }
+.wp-badge-window:is(:hover, :focus-within) .wp-badge-track,
+.client-logos .logos-marquee:is(:hover, :focus-within) .logos-track {
+  animation-play-state: paused;
+}
+@keyframes wp-trust-slide { to { transform: translateX(-50%); } }
+
+@media (prefers-reduced-motion: reduce) {
+  .wp-badge-track, .client-logos .logos-track { width: 100%; min-width: 0; animation: none; }
+  .wp-badge-list, .client-logos .logos-row { flex: 1 1 100%; flex-wrap: wrap; }
+  .wp-badge-list[aria-hidden], .client-logos .logos-copy { display: none; }
+  .client-logos .logos-marquee { mask-image: none; }
+}
+
+main :is(img, video, canvas) { max-width: 100%; }
+main :is(img, video) { height: auto; }
+main :is(pre, iframe) { max-width: 100%; }
+main pre { overflow-x: auto; }
+
+@media (max-width: 680px) {
+  main :is(.hero-grid, .doc-layout, .two-col, .feat-row) > * { min-width: 0; }
+  main :is(h1, h2, h3, p, dd) { overflow-wrap: anywhere; }
+  main :is(input, select, textarea) { max-width: 100%; }
+  main table { display: block; max-width: 100%; overflow-x: auto; }
+}
 
 
 
