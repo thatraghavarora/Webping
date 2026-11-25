@@ -7,3 +7,6 @@ leads-config.php
 node_modules
 .next/
 /public/
+*.bak
+*.bak-*
+*.bak.*
