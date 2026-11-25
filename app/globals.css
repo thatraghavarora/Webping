@@ -31,6 +31,20 @@
 }
 @keyframes wp-trust-slide { to { transform: translateX(-50%); } }
 
+.wp-team-cases .case-marquee + .case-marquee { margin-top: 1rem; }
+.wp-team-cases .case-marquee .case-track { animation: wp-trust-slide 46s linear infinite; }
+.wp-team-cases .case-marquee .case-track.rev { animation-direction: reverse; }
+.wp-team-cases .case-marquee:is(:hover, :focus-within) .case-track { animation-play-state: paused; }
+.wp-team-case-group { display: flex; align-items: stretch; gap: 1rem; padding: .5rem 1rem .5rem 0; }
+.wp-team-case-group > .case-card { flex: 0 0 min(22rem, 78vw); width: min(22rem, 78vw); }
+.wp-team-cases .wp-team-case-group > .case-card { animation: none; }
+
+@media (prefers-reduced-motion: reduce) {
+  .wp-team-cases .case-marquee { mask-image: none; overflow-x: auto; }
+  .wp-team-cases .case-marquee .case-track { animation: none; }
+  .wp-team-case-group[aria-hidden] { display: none; }
+}
+
 @media (prefers-reduced-motion: reduce) {
   .wp-badge-track, .client-logos .logos-track { width: 100%; min-width: 0; animation: none; }
   .wp-badge-list, .client-logos .logos-row { flex: 1 1 100%; flex-wrap: wrap; }

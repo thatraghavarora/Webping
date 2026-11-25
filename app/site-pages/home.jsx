@@ -2,6 +2,7 @@ import SiteHeader from "../components/SiteHeader";
 import SiteFooter from "../components/SiteFooter";
 import AnimatedContent from "../components/AnimatedContent";
 import TrustBadges from "../components/TrustBadges";
+import TeamUseCases from "../components/TeamUseCases";
 export default function SitePage() {
   return (
     <>
@@ -1126,7 +1127,7 @@ export default function SitePage() {
               {"\n    "}
             </div>
             {"\n    "}
-            <div className={"case-grid"}>
+            <TeamUseCases>
               {"\n      "}
               <div
                 className={
@@ -1479,7 +1480,7 @@ export default function SitePage() {
                 {"\n      "}
               </div>
               {"\n    "}
-            </div>
+            </TeamUseCases>
             {"\n  "}
           </div>
           {"\n"}
