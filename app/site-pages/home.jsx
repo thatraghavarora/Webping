@@ -1,7 +1,6 @@
 import SiteHeader from "../components/SiteHeader";
 import SiteFooter from "../components/SiteFooter";
 import AnimatedContent from "../components/AnimatedContent";
-import InboxArtwork from "../components/InboxArtwork";
 export default function SitePage() {
   return (
     <>
@@ -41,8 +40,9 @@ export default function SitePage() {
           "https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400..800&display=swap"
         }
         rel={"stylesheet"}
+        precedence="webping-font"
       />
-      <link rel={"stylesheet"} href={"/assets/site.css?v=90"} />
+      <link rel="stylesheet" href="/assets/site.css?v=90" precedence="webping-site" />
       <script type={"application/ld+json"}>
         {
           '\n{"@context":"https://schema.org","@type":"SoftwareApplication","name":"WebPing","url":"https://webping.webpeaker.com","applicationCategory":"BusinessApplication","operatingSystem":"Web","description":"WhatsApp CRM on the official WhatsApp Business API: shared team inbox, paced broadcasts, automatic replies, sales pipeline and developer API.","offers":{"@type":"Offer","priceCurrency":"USD","price":"0","description":"Free plan available"}}\n'
@@ -53,7 +53,7 @@ export default function SitePage() {
           '\n{"@context":"https://schema.org","@type":"Organization","name":"WebPing","url":"https://webping.webpeaker.com","email":"webping@webpeaker.com","telephone":"+91 8696778246","address":{"@type":"PostalAddress","addressLocality":"Jaipur","addressRegion":"Rajasthan","addressCountry":"IN"}}\n'
         }
       </script>
-      <link rel={"stylesheet"} href={"/assets/webping-leads.css?v=3"} />
+      <link rel="stylesheet" href="/assets/webping-leads.css?v=3" precedence="webping-leads" />
       <style>
         {
           ".jt-pane{display:none!important}.jt-pane.active{display:grid!important}@media(max-width:900px){.jt-pane.active{display:block!important}}"
@@ -122,7 +122,7 @@ export default function SitePage() {
                 {"\n      "}
               </div>
               {"\n      "}
-              <AnimatedContent className="hero-mock">
+              <AnimatedContent className="hero-mock" stablePreview>
                 {"\n        "}
                 <p className={"tag-chip hot"}>
                   <span
@@ -463,7 +463,6 @@ export default function SitePage() {
           {"\n"}
         </section>
         {"\n\n"}
-        <InboxArtwork />
         <section className={"section sec-lav jx-sec"}>
           {"\n  "}
           <div className={"wrap"}>

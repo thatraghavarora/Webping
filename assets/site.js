@@ -281,7 +281,7 @@
   });
 
   /* ============ continuous chat loop in the homepage hero mock ============ */
-  var mock = document.querySelector('.hero-mock');
+  var mock = document.querySelector('.hero-mock:not([data-static-preview])');
   if (mock && !mock.getAttribute('data-chatlive')) {
     mock.setAttribute('data-chatlive', '1');
     mock.classList.add('chatlive');
