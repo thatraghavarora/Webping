@@ -1,0 +1,6 @@
+.env
+.env.*
+leads-config.php
+**/.state/
+*.log
+.DS_Store

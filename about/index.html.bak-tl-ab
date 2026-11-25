@@ -1,0 +1,203 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta name="description" content="WebPing is a WhatsApp CRM by Webpeaker, built in Jaipur, Rajasthan — one product, two plans, plainly documented, human-reviewed automation." />
+    <meta name="robots" content="index, follow" />
+<meta name="theme-color" content="#25d366" />
+<link rel="canonical" href="https://webping.webpeaker.com/about" />
+<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+<link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+<title>About Us | WebPing WhatsApp CRM</title>
+<link rel="preconnect" href="https://fonts.googleapis.com" /><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin /><link href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400..800&amp;display=swap" rel="stylesheet" /><link rel="stylesheet" href="/assets/site.css?v=29" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"Organization","name":"WebPing","url":"https://webping.webpeaker.com","email":"webping@webpeaker.com","telephone":"+91 8696778246"}
+</script>
+<style>
+.rv{opacity:0;transform:translateY(26px);transition:opacity .7s ease var(--d,0s),transform .7s cubic-bezier(.16,.84,.3,1) var(--d,0s)}
+.rv.rv-in{opacity:1;transform:none}
+.about-shot{opacity:0;transform:translateY(30px) scale(.94);transition:opacity .8s ease,transform .8s cubic-bezier(.16,.84,.3,1)}
+.about-shot.rv-in{opacity:1;transform:none}
+.about-shot{margin:34px auto 0;max-width:1000px;border-radius:18px;overflow:hidden;border:1px solid rgba(0,0,0,.08);box-shadow:0 24px 60px -30px rgba(15,26,46,.35);background:#fff}
+.about-shot img{display:block;width:100%;height:auto}
+.about-shot figcaption{padding:14px 20px;font-size:14px;color:#5a6478;text-align:center}
+@media (prefers-reduced-motion:reduce){.rv,.about-shot{opacity:1;transform:none;transition:none}}
+</style>
+</head>
+<body>
+<header class="site-head"><div class="announce"><div class="wrap"><span class="dot"></span><p>Free plan available — every new subscription carries a 1-day full refund.</p></div></div><div class="wrap bar"><a class="brand" href="/"><img src="/favicon.svg" alt="" />WebPing</a><nav class="nav"><div class="nav-item"><a href="/features">Features</a><button class="nav-caret" aria-haspopup="true" aria-expanded="false" aria-label="Open features menu"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 9l6 6 6-6"/></svg></button><div class="nav-menu"><a href="/features/shared-inbox"><span class="nm-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 12h-6l-2 3h-4l-2-3H2"/><path d="M5.45 5.11 2 12v6a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2v-6l-3.45-6.89A2 2 0 0 0 16.76 4H7.24a2 2 0 0 0-1.79 1.11z"/></svg></span><span class="nm-text"><b>Shared inbox</b><span>The whole team on one number</span></span></a><a href="/features/broadcasts"><span class="nm-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m3 11 18-5v12L3 14v-3z"/><path d="M11.6 16.8a3 3 0 1 1-5.8-1.6"/></svg></span><span class="nm-text"><b>Broadcasts</b><span>Approved templates, paced sending</span></span></a><a href="/features/automations"><span class="nm-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M13 2 3 14h9l-1 8 10-12h-9l1-8z"/></svg></span><span class="nm-text"><b>Automations</b><span>Rules for the routine replies</span></span></a><a href="/features/ai-assistant"><span class="nm-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m12 3 1.9 5.2L19 10l-5.1 1.8L12 17l-1.9-5.2L5 10l5.1-1.8L12 3z"/><path d="M19 15l.7 1.8L21.5 17.5 19.7 18.2 19 20l-.7-1.8L16.5 17.5l1.8-.7L19 15z"/></svg></span><span class="nm-text"><b>Reply drafts</b><span>Drafts grounded in your docs</span></span></a><a href="/features/sales-pipelines"><span class="nm-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m3 17 6-6 4 4 8-8"/><path d="M14 7h7v7"/></svg></span><span class="nm-text"><b>Sales pipelines</b><span>Deals where the chats happen</span></span></a><a href="/features/contacts"><span class="nm-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M22 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg></span><span class="nm-text"><b>Contacts</b><span>Fields that fill from the chat</span></span></a><a href="/features/dashboard"><span class="nm-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="3" width="7" height="9" rx="1"/><rect x="14" y="3" width="7" height="5" rx="1"/><rect x="14" y="12" width="7" height="9" rx="1"/><rect x="3" y="16" width="7" height="5" rx="1"/></svg></span><span class="nm-text"><b>Dashboard</b><span>Live numbers, response times</span></span></a><a href="/features/team-roles"><span class="nm-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg></span><span class="nm-text"><b>Team roles</b><span>Admins, agents, audit log</span></span></a><a href="/features/api"><span class="nm-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m16 18 6-6-6-6"/><path d="m8 6-6 6 6 6"/></svg></span><span class="nm-text"><b>API &amp; webhooks</b><span>Scoped keys over REST</span></span></a><a href="/features/security"><span class="nm-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="11" width="18" height="11" rx="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg></span><span class="nm-text"><b>Security</b><span>Encryption on every channel</span></span></a></div></div><a href="/pricing">Pricing</a><a href="/solutions">Solutions</a><a href="/free-tools">Free Tools</a><a href="/docs">Docs</a><a href="/about" class="on">About</a></nav><div class="head-cta"><a class="btn btn-light btn-sm" href="/app">Log in</a><a class="btn btn-sm" href="/app">Open the app</a></div><button class="menu-btn" aria-label="Menu" aria-haspopup="true" aria-expanded="false"><svg class="icon-bars" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg><svg class="icon-x" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"/></svg></button></div><div class="mnav"><div class="mnav-group"><button class="mnav-toggle" type="button" aria-expanded="false"><span>Features</span><svg class="chev" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" width="15" height="15" aria-hidden="true"><path d="M6 9l6 6 6-6"/></svg></button><div class="mnav-sub"><a href="/features/shared-inbox"><b>Shared inbox</b><span>The whole team on one number</span></a><a href="/features/broadcasts"><b>Broadcasts</b><span>Approved templates, paced sending</span></a><a href="/features/automations"><b>Automations</b><span>Rules for the routine replies</span></a><a href="/features/ai-assistant"><b>Reply drafts</b><span>Drafts grounded in your docs</span></a><a href="/features/sales-pipelines"><b>Sales pipelines</b><span>Deals where the chats happen</span></a><a href="/features/contacts"><b>Contacts</b><span>Fields that fill from the chat</span></a><a href="/features/dashboard"><b>Dashboard</b><span>Live numbers, response times</span></a><a href="/features/team-roles"><b>Team roles</b><span>Admins, agents, audit log</span></a><a href="/features/api"><b>API &amp; webhooks</b><span>Scoped keys over REST</span></a><a href="/features/security"><b>Security</b><span>Encryption on every channel</span></a></div></div><a class="mnav-link" href="/pricing">Pricing</a><a class="mnav-link" href="/solutions">Solutions</a><a class="mnav-link" href="/free-tools">Free tools</a><a class="mnav-link" href="/docs">Docs</a><a class="mnav-link" href="/about">About</a><div class="mnav-cta"><a class="btn-ghost" href="/app">Log in</a><a class="btn" href="/app">Open the app</a></div></div></header>
+<main>
+
+<section class="page-head">
+  <p class="kicker">About</p>
+  <h1>A small team building one thing well.</h1>
+  <p class="lead">WebPing is a WhatsApp CRM by Webpeaker, built from Jaipur, Rajasthan. We
+  work with small and mid-sized businesses whose customers happen to live on WhatsApp —
+  which in India is most of them.</p>
+</section>
+
+<section class="section sec-white"><div class="wrap">
+  <div class="section-head">
+    <p class="kicker">Our story</p>
+    <h2>Built out of a real problem, not a market opportunity.</h2>
+    <p class="lead">Before WebPing, we watched small businesses try to run their sales and support
+    from a handful of personal phones — one person holding the number, everyone else wondering
+    what was promised to which customer.</p>
+  </div>
+  <div class="two-col">
+    <div>
+      <h3>Why we started</h3>
+      <p>Teams were copying chat threads into notes, forgetting follow-ups, and losing deals not
+      because the product was bad but because the conversation had no shared home. Existing tools
+      were either heavy enterprise suites priced like them, or cheap wrappers that put your
+      customers at risk.</p>
+      <p>So we built WebPing: the shared inbox, broadcast engine and deal board a small team
+      actually needs, on the official WhatsApp Business Platform — nothing more, nothing less.</p>
+    </div>
+    <div>
+      <h3>Where we are</h3>
+      <p>We are a deliberately small team in Jaipur, Rajasthan. Small is a choice: it keeps the
+      people who write the code answering your support messages, and it keeps the roadmap honest —
+      features get built because customers ask for them, not because a slide deck promised them.</p>
+      <div class="stat-row" style="margin-top:22px">
+        <div class="stat"><b>1</b><span>number for the whole team</span></div>
+        <div class="stat"><b>2</b><span>plans — Pro and Enterprise</span></div>
+        <div class="stat"><b>1 day</b><span>full-refund window</span></div>
+      </div>
+    </div>
+  </div>
+</div></section>
+
+
+<figure class="about-shot">
+  <img src="/images/image.png" width="1100" height="503" alt="The WebPing dashboard: shared inbox chats, scheduled broadcasts and the deal board in one view" loading="lazy" decoding="async">
+  <figcaption>The live product &mdash; the shared inbox your team gets on day one, not a mockup.</figcaption>
+</figure>
+
+<section class="section sec-cream"><div class="wrap">
+  <div class="section-head">
+    <p class="kicker">What we make</p>
+    <h2>One product. Everything it promises, it actually has.</h2>
+  </div>
+  <div class="grid cols-3">
+    <div class="card"><h3>Shared inbox</h3><p>Your business number, answered by the whole team. Assign chats, see who replied what, and never lose a customer inside a colleague's phone again.</p></div>
+    <div class="card"><h3>Broadcasts</h3><p>Approved message templates sent in paced batches — announcements, reminders and offers that reach real people without hammering the API.</p></div>
+    <div class="card"><h3>Automations</h3><p>Rules for the routine replies: greetings outside working hours, keyword responses, follow-up nags for chats that go quiet.</p></div>
+    <div class="card"><h3>Reply drafts</h3><p>AI-assisted drafts grounded in your own documents. A human reviews every draft before it goes out — automation assists, your team decides.</p></div>
+    <div class="card"><h3>Sales pipelines</h3><p>A deal board attached to the actual chat, so a conversation and its stage of the sale live in the same place.</p></div>
+    <div class="card"><h3>Dashboard &amp; roles</h3><p>Live response times, per-agent activity, admin-only controls and an audit log — the boring things that keep a team accountable.</p></div>
+  </div>
+</div></section>
+
+<section class="section sec-white"><div class="wrap">
+  <div class="section-head">
+    <p class="kicker">How we work</p>
+    <h2>Promises we can keep, kept in writing.</h2>
+  </div>
+  <div class="two-col">
+    <div>
+      <h3>What you can expect from us</h3>
+      <ul class="plain">
+        <li><b>Documentation you can trust.</b> Screenshots taken from the real product, not mockups of an ideal version.</li>
+        <li><b>Updates on a schedule.</b> Changes announced before release windows — no silent churn while your team works.</li>
+        <li><b>Refunds without a fight.</b> Every new subscription carries a 1-day full refund. If you change your mind, that's it.</li>
+        <li><b>Support that answers.</b> A written reply within a business day — from a person, not a ticket queue.</li>
+      </ul>
+    </div>
+    <div>
+      <h3>What we deliberately avoid</h3>
+      <ul class="plain">
+        <li>Vanity numbers on this site. If a claim can't be verified by you, it doesn't get written by us.</li>
+        <li>Tier confusion. Two plans: Pro and Enterprise. The differences are on one page.</li>
+        <li>Talking to your customers for you. Every automated draft is reviewed by a human before it is sent.</li>
+        <li>Engagement theatre. If a chat isn't going somewhere, the right move is to follow up or close it cleanly.</li>
+      </ul>
+      <h3>How we handle your data</h3>
+      <p>Messages are encrypted in transit and at rest, access is scoped by role, and the audit log
+      records who did what. The details are on the <a href="/security">security page</a> — written
+      for business owners, not lawyers.</p>
+    </div>
+  </div>
+</div></section>
+
+<section class="section sec-lav"><div class="wrap">
+  <div class="section-head">
+    <p class="kicker">Getting started</p>
+    <h2>From sign-up to first broadcast, same day.</h2>
+  </div>
+  <div class="steps">
+    <div class="step"><b>1. Connect</b><span>Link your official WhatsApp Business number to the inbox.</span></div>
+    <div class="step"><b>2. Invite</b><span>Add your team — agents, admins — with the roles they need.</span></div>
+    <div class="step"><b>3. Import</b><span>Bring in your contact list with tags and custom fields.</span></div>
+    <div class="step"><b>4. Send</b><span>Approve templates, schedule the first broadcast, and watch replies land in the shared inbox.</span></div>
+  </div>
+</div></section>
+
+<section class="final-cta sec-deep">
+  <div class="wrap">
+    <h2>Talk to the people <span class="hl hl-mint">who build it</span>.</h2>
+    <p class="lead" style="margin:18px auto 0">Questions about your use case? Message us on WhatsApp
+    or write in — you'll get the same team that maintains the product.</p>
+    <div class="btn-row">
+      <a class="btn" href="https://wa.me/918696778246">Chat on WhatsApp</a>
+      <a class="btn-ghost" href="/contact">Contact page</a>
+    </div>
+    <p class="fine">webping@webpeaker.com &middot; +91 86967 78246 &middot; Jaipur, Rajasthan, India</p>
+  </div>
+</section>
+
+</main>
+<footer class="site-foot"><div class="wrap">
+  <div class="foot-top">
+    <div class="foot-brandcol">
+      <div class="foot-brand"><img src="/favicon.svg" alt="" width="28" height="28" />WebPing<span class="foot-live"><i></i>online</span></div>
+      <p>The WhatsApp CRM built on the official WhatsApp Business API. A shared inbox for the whole
+      team, scheduled broadcasts, automatic replies and a deal board &mdash; one login, one number,
+      zero phone-switching.</p>
+      <div class="foot-contact">
+        <a href="https://wa.me/918696778246"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 11.5a8.4 8.4 0 0 1-8.5 8.4 8.7 8.7 0 0 1-3.8-.9L3 20l1-5.1a8.2 8.2 0 0 1-1-4A8.4 8.4 0 0 1 11.5 3a8.4 8.4 0 0 1 9.5 8.5z"/><path d="M8.3 10.7c.5 1.7 2 3.4 3.9 4.3"/></svg><div><b>+91 86967 78246</b><span class="fc-sub">Chat with us anytime</span></div></a>
+        <a class="fc-mail" href="mailto:webping@webpeaker.com"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></svg><div><b>webping@webpeaker.com</b><span class="fc-sub">Sales &amp; support</span></div></a>
+        <span class="fc-pin"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 21s-7-5.2-7-11a7 7 0 0 1 14 0c0 5.8-7 11-7 11z"/><circle cx="12" cy="10" r="2.6"/></svg><div><b>Jaipur</b><span class="fc-sub">Rajasthan, India</span></div></span>
+      </div>
+      <div class="foot-badges"><span>Official WhatsApp Business API</span><span>Cloud API ready</span><span>Self-hostable</span></div>
+    </div>
+    <div class="foot-cols">
+      <div><h4>Product</h4><ul><li><a href="/features">Features</a></li><li><a href="/pricing">Pricing</a></li><li><a href="/solutions">Solutions</a></li><li><a href="/free-tools">Free tools</a></li><li><a href="/app">Open the app</a></li></ul></div>
+      <div><h4>Resources</h4><ul><li><a href="/docs">Documentation</a></li><li><a href="/help">Help centre</a></li><li><a href="/blog">Blog</a></li><li><a href="/locations">Locations</a></li></ul></div>
+      <div><h4>Company</h4><ul><li><a href="/about">About</a></li><li><a href="/contact">Contact</a></li><li><a href="/affiliate">Affiliate program</a></li></ul></div>
+      <div><h4>Legal</h4><ul><li><a href="/privacy">Privacy policy</a></li><li><a href="/terms">Terms</a></li><li><a href="/refund">Refund policy</a></li><li><a href="/security">Security</a></li></ul></div>
+    </div>
+  </div>
+  <div class="foot-base">
+    <span>&copy; 2026 Webpeaker. All rights reserved.</span>
+    <span>Built on the WhatsApp Business Platform. WhatsApp is a trademark of Meta.</span>
+    <a class="foot-toplink" href="#">Back to top <span aria-hidden="true">&uarr;</span></a>
+  </div>
+</div></footer>
+<script defer src="/assets/site.js?v=28"></script>
+<a class="wa-float" href="https://wa.me/918696778246" target="_blank" rel="noopener">
+  <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12.04 2a9.9 9.9 0 0 0-8.24 15.36L2.2 21.8l4.56-1.17A9.9 9.9 0 1 0 12.04 2zm5.44 13.66c-.24.68-1.4 1.3-1.93 1.35-.5.05-1.13.07-1.76-.12a13.5 13.5 0 0 1-5.1-3.3 12.4 12.4 0 0 1-2.35-3.3c-.26-.5-.4-1.1-.4-1.7 0-.6.24-1.15.52-1.5.28-.36.62-.85.9-1.1.3-.3.6-.36.8-.36.2 0 .5.02.5.02h.02c.24 0 .4.16.5.4l.86 2.1c.08.18.05.42-.1.6l-.5.63c-.16.2-.18.4-.06.6a9.8 9.8 0 0 0 4.5 4.06c.24.1.44.08.6-.1l.74-.86c.18-.2.42-.24.62-.14l2.1 1c.24.1.4.28.4.5 0 .12-.02.9-.12 1.1z"/></svg>
+  Chat with us
+</a>
+<script>
+(function(){
+  var els=[];
+  [".page-head > *",".section-head",".two-col > div",".grid.cols-3 > .card",".stat-row",".steps",".about-shot",".final-cta .wrap"]
+  .forEach(function(s){document.querySelectorAll("main "+s).forEach(function(e){els.push(e);});});
+  if(window.matchMedia("(prefers-reduced-motion: reduce)").matches||!("IntersectionObserver" in window)){
+    els.forEach(function(e){e.classList.add("rv-in")});return;
+  }
+  els.forEach(function(e,i){
+    e.classList.add("rv");
+    e.style.setProperty("--d",((i%3)*90)+"ms");
+  });
+  var io=new IntersectionObserver(function(en){
+    en.forEach(function(x){if(x.isIntersecting){x.target.classList.add("rv-in");io.unobserve(x.target);}});
+  },{threshold:.12,rootMargin:"0px 0px -8% 0px"});
+  els.forEach(function(e){io.observe(e);});
+})();
+</script>
+</body>
+</html>

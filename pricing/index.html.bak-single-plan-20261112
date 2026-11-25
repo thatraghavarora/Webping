@@ -1,0 +1,154 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta name="description" content="WebPing pricing: Basic $6/mo and Professional $10/mo. Simple plans with shared inbox, broadcasts, automations, CRM and more. Compare every feature in detail." />
+<meta name="robots" content="index, follow" />
+<meta name="theme-color" content="#25d366" />
+<link rel="canonical" href="https://webping.webpeaker.com/pricing" />
+<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+<link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+<title>Pricing | WebPing — Basic $6/mo, Professional $10/mo</title>
+<link rel="preconnect" href="https://fonts.googleapis.com" /><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin /><link href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400..800&amp;display=swap" rel="stylesheet" /><link rel="stylesheet" href="/assets/site.css?v=90" />
+<link rel="stylesheet" href="/assets/webping-leads.css?v=3" />
+</head>
+<body>
+<header class="site-head"></header>
+<main>
+<section class="page-head price-head">
+  <p class="kicker">Pricing</p>
+  <h1>Simple pricing. Every feature, clearly compared.</h1>
+  <p class="lead">Choose the plan that fits your team. Basic for getting started, Professional for teams that need the full WhatsApp CRM workflow. 1-day full refund on every new subscription.</p>
+  <ul class="chip-pills">
+    <li>Basic $6/mo</li>
+    <li>Professional $10/mo</li>
+    <li>1-day full refund</li>
+    <li>No hidden fees</li>
+  </ul>
+</section>
+<section class="section no-b"><div class="wrap">
+  <div class="price-grid">
+    <div class="price-card">
+      <span class="pc-tag">Basic</span>
+      <h3>Basic</h3>
+      <p class="pc-price">$6<small>/mo</small></p>
+      <p class="pc-billed">Billed monthly per workspace</p>
+      <p class="pc-sub">For individuals and small teams getting started with WhatsApp business messaging.</p>
+      <p class="pc-group">What’s included</p>
+      <ul class="pc-list">
+        <li>1 WhatsApp number</li>
+        <li>Up to 3 team members</li>
+        <li>Shared inbox & conversation assignment</li>
+        <li>Contacts & basic custom fields</li>
+        <li>Broadcasts with approved templates</li>
+        <li>Basic automations & quick replies</li>
+        <li>Basic dashboard & reports</li>
+        <li>Tags & conversation notes</li>
+        <li>Email support</li>
+      </ul>
+      <a class="btn btn-green pc-cta" href="/app">Start Basic</a>
+      <p class="pc-fine">1-day full refund on new subscriptions.</p>
+    </div>
+    <div class="price-card pop">
+      <span class="pc-tag">Most popular</span>
+      <h3>Professional</h3>
+      <p class="pc-price">$10<small>/mo</small></p>
+      <p class="pc-billed">Billed monthly per workspace</p>
+      <p class="pc-sub">For growing teams that need advanced automation, CRM, integrations, and full control.</p>
+      <p class="pc-group">Everything in Basic, plus</p>
+      <ul class="pc-list">
+        <li>Up to 10 team members</li>
+        <li>Unlimited contacts & advanced fields</li>
+        <li>Advanced broadcasts & scheduling</li>
+        <li>Advanced automations & workflows</li>
+        <li>AI reply drafts (human-reviewed)</li>
+        <li>Sales pipelines & deal tracking</li>
+        <li>Team roles & permissions</li>
+        <li>API access & webhooks</li>
+        <li>Advanced analytics & exports</li>
+        <li>Priority support</li>
+      </ul>
+      <a class="btn pc-cta" href="/app">Start Professional</a>
+      <p class="pc-fine">Best value for sales, support & marketing teams.</p>
+    </div>
+  </div>
+  <p class="plan-note pc-note">WhatsApp Cloud API conversation/template charges are billed separately by Meta to your own WhatsApp Business account. WebPing pricing covers the CRM/workspace features listed above.</p>
+</div></section>
+<section class="section sec-cream" id="compare"><div class="wrap">
+  <div class="section-head"><p class="kicker">Compare plans</p><h2>Detailed feature comparison: Basic vs Professional</h2><p class="lead">Every feature compared side by side so you can choose with confidence.</p></div>
+  <div class="cmp-wrap"><table class="cmp-table">
+    <thead><tr><th>Feature</th><th>Basic<br/><small>$6/mo</small></th><th>Professional<br/><small>$10/mo</small></th></tr></thead>
+    <tbody>
+      <tr class="cmp-cat"><td colspan="3">Workspace & team</td></tr>
+      <tr><td>WhatsApp number(s)</td><td>1 number</td><td>1 number</td></tr>
+      <tr><td>Team members (seats)</td><td>Up to 3</td><td>Up to 10</td></tr>
+      <tr><td>Team roles & permissions</td><td>Basic (admin/agent)</td><td><span class="cmp-yes">Advanced roles & permissions</span></td></tr>
+      <tr><td>Conversation assignment & ownership</td><td><span class="cmp-yes">Included</span></td><td><span class="cmp-yes">Included</span></td></tr>
+      <tr><td>Internal notes & context</td><td><span class="cmp-yes">Included</span></td><td><span class="cmp-yes">Included</span></td></tr>
+      <tr class="cmp-cat"><td colspan="3">Shared inbox & messaging</td></tr>
+      <tr><td>Shared team inbox</td><td><span class="cmp-yes">Included</span></td><td><span class="cmp-yes">Included</span></td></tr>
+      <tr><td>24-hour window handling</td><td><span class="cmp-yes">Included</span></td><td><span class="cmp-yes">Included</span></td></tr>
+      <tr><td>Quick replies / saved replies</td><td><span class="cmp-yes">Included</span></td><td><span class="cmp-yes">Included (team-wide)</span></td></tr>
+      <tr><td>Tags & chat organization</td><td><span class="cmp-yes">Included</span></td><td><span class="cmp-yes">Included</span></td></tr>
+      <tr><td>Media & file sharing in chats</td><td><span class="cmp-yes">Included</span></td><td><span class="cmp-yes">Included</span></td></tr>
+      <tr class="cmp-cat"><td colspan="3">Broadcasts & templates</td></tr>
+      <tr><td>WhatsApp template management</td><td><span class="cmp-yes">Included</span></td><td><span class="cmp-yes">Included</span></td></tr>
+      <tr><td>Broadcast campaigns (approved templates)</td><td><span class="cmp-yes">Included</span></td><td><span class="cmp-yes">Included</span></td></tr>
+      <tr><td>Audience selection & segmentation</td><td>Basic</td><td><span class="cmp-yes">Advanced segmentation</span></td></tr>
+      <tr><td>Campaign scheduling</td><td>Basic</td><td><span class="cmp-yes">Advanced scheduling</span></td></tr>
+      <tr><td>Broadcast reports (delivery/read/replies)</td><td>Basic</td><td><span class="cmp-yes">Detailed reports</span></td></tr>
+      <tr class="cmp-cat"><td colspan="3">Automation & AI</td></tr>
+      <tr><td>Auto-replies & greeting messages</td><td><span class="cmp-yes">Included</span></td><td><span class="cmp-yes">Included</span></td></tr>
+      <tr><td>Rule-based automations (routing, tagging)</td><td>Basic rules</td><td><span class="cmp-yes">Advanced workflows</span></td></tr>
+      <tr><td>Out-of-hours / away handling</td><td><span class="cmp-yes">Included</span></td><td><span class="cmp-yes">Included</span></td></tr>
+      <tr><td>AI reply drafts (human-reviewed)</td><td><span class="cmp-no">—</span></td><td><span class="cmp-yes">Included</span></td></tr>
+      <tr><td>Knowledge-grounded draft assistance</td><td><span class="cmp-no">—</span></td><td><span class="cmp-yes">Included</span></td></tr>
+      <tr class="cmp-cat"><td colspan="3">Contacts & CRM</td></tr>
+      <tr><td>Contacts management</td><td><span class="cmp-yes">Included</span></td><td><span class="cmp-yes">Unlimited / advanced</span></td></tr>
+      <tr><td>Custom fields & attributes</td><td>Basic fields</td><td><span class="cmp-yes">Advanced fields</span></td></tr>
+      <tr><td>CSV import & organization</td><td><span class="cmp-yes">Included</span></td><td><span class="cmp-yes">Included</span></td></tr>
+      <tr><td>Sales pipelines & deal stages</td><td><span class="cmp-no">—</span></td><td><span class="cmp-yes">Included</span></td></tr>
+      <tr><td>Lead tracking & follow-ups</td><td>Basic</td><td><span class="cmp-yes">Pipeline-based tracking</span></td></tr>
+      <tr class="cmp-cat"><td colspan="3">Analytics & reporting</td></tr>
+      <tr><td>Dashboard overview</td><td><span class="cmp-yes">Basic</span></td><td><span class="cmp-yes">Advanced</span></td></tr>
+      <tr><td>Response time & conversation metrics</td><td>Basic</td><td><span class="cmp-yes">Detailed</span></td></tr>
+      <tr><td>Campaign performance insights</td><td>Basic</td><td><span class="cmp-yes">Detailed</span></td></tr>
+      <tr><td>Data export</td><td><span class="cmp-no">—</span></td><td><span class="cmp-yes">Included</span></td></tr>
+      <tr class="cmp-cat"><td colspan="3">Integrations & developer</td></tr>
+      <tr><td>REST API access</td><td><span class="cmp-no">—</span></td><td><span class="cmp-yes">Included</span></td></tr>
+      <tr><td>Webhooks (signed events)</td><td><span class="cmp-no">—</span></td><td><span class="cmp-yes">Included</span></td></tr>
+      <tr><td>Third-party integrations (Zapier, CRM, etc.)</td><td>Limited</td><td><span class="cmp-yes">Supported via API/webhooks</span></td></tr>
+      <tr class="cmp-cat"><td colspan="3">Security & support</td></tr>
+      <tr><td>Official WhatsApp Business Platform</td><td><span class="cmp-yes">Included</span></td><td><span class="cmp-yes">Included</span></td></tr>
+      <tr><td>Secure access & workspace controls</td><td><span class="cmp-yes">Included</span></td><td><span class="cmp-yes">Included</span></td></tr>
+      <tr><td>Customer support</td><td>Email support</td><td><span class="cmp-yes">Priority support</span></td></tr>
+      <tr><td>1-day full refund (new subscriptions)</td><td><span class="cmp-yes">Included</span></td><td><span class="cmp-yes">Included</span></td></tr>
+    </tbody>
+  </table></div>
+  <p class="plan-note" style="margin-top:18px">Feature availability may evolve as we improve WebPing. For the latest plan details or custom needs, <a href="/contact">contact our team</a>.</p>
+</div></section>
+<section class="section"><div class="wrap"><div class="grid cols-3">
+  <div class="card"><h3>Basic — $6/mo</h3><p>Best for solo users and small teams who need a shared inbox, basic broadcasts, and organized conversations.</p></div>
+  <div class="card"><h3>Professional — $10/mo</h3><p>Best for growing teams who need automations, AI reply drafts, sales pipeline, API/webhooks, and advanced reporting.</p></div>
+  <div class="card"><h3>Need help choosing?</h3><p>Tell us your team size and workflow — we’ll recommend the right setup.</p><p style="margin-top:10px"><a class="btn-ghost" href="/contact">Talk to sales</a></p></div>
+</div></div></section>
+<section class="section sec-cream"><div class="wrap"><div class="section-head"><p class="kicker">FAQ</p><h2>Pricing questions</h2></div>
+  <div class="fd-faqs">
+    <details class="fd-faq"><summary>What is the difference between Basic and Professional?</summary><p>Basic covers core inbox, contacts, basic broadcasts, and basic automations for small teams. Professional adds more seats, advanced automations, AI reply drafts, sales pipelines, team roles, API/webhooks, and advanced analytics.</p></details>
+    <details class="fd-faq"><summary>Are WhatsApp conversation charges included?</summary><p>No. WhatsApp Cloud API conversation/template charges are billed separately by Meta to your own WhatsApp Business account. WebPing’s plan price covers the CRM/workspace features.</p></details>
+    <details class="fd-faq"><summary>Is there a refund?</summary><p>Yes — every new subscription carries a 1-day full refund, no questions asked. Contact us within that window if it’s not right for you.</p></details>
+    <details class="fd-faq"><summary>Can I upgrade later?</summary><p>Yes. You can start on Basic and move to Professional as your team and workflow grow.</p></details>
+    <details class="fd-faq"><summary>Do I need my own WhatsApp Business account?</summary><p>Yes. WebPing works with the official WhatsApp Business Platform; you keep ownership of your number and Meta-billed charges.</p></details>
+  </div>
+</div></section>
+<section class="section page-final"><div class="wrap"><p class="kicker">Ready when you are</p><h2>Start with Basic or go Professional.</h2><p class="lead">Simple plans, clear comparison, and a 1-day full refund promise.</p><div class="btn-row"><a class="btn btn-green" href="/app">Get started</a><a class="btn-ghost" href="https://wa.me/918696778246">Chat with us</a></div></div></section>
+</main>
+<section class="wl-sec" id="contact-form"><div class="wl-wrap"><div class="wl-copy"><h2>Talk to our team about WebPing</h2><p>Share your details and we&#39;ll help you with setup, features, pricing, or the right WhatsApp workflow for your team.</p></div><div class="wl-card"><div class="wl-card-head"><div><b>Send us a message</b><span>We usually reply by email or WhatsApp.</span></div></div><form class="wl-form" novalidate><div class="wl-grid"><div class="wl-field"><label>Full name <span class="req">*</span></label><div class="wl-inp"><input name="full_name" type="text" required placeholder="Your full name"/></div></div><div class="wl-field"><label>Business name <span class="req">*</span></label><div class="wl-inp"><input name="business_name" type="text" required placeholder="Your business name"/></div></div></div><div class="wl-grid"><div class="wl-field"><label>Email <span class="req">*</span></label><div class="wl-inp"><input name="email" type="email" required placeholder="you@company.com"/></div></div><div class="wl-field"><label>Phone</label><div class="wl-inp"><input name="phone" type="tel" placeholder="+91 98765 43210"/></div></div></div><div class="wl-field"><label>Message <span class="req">*</span></label><div class="wl-inp ta"><textarea name="message" required placeholder="Tell us what you need."></textarea></div></div><div class="wl-actions"><button class="btn" type="submit">Send message</button><span class="wl-msg" aria-live="polite"></span></div></form></div></div></section>
+<footer class="site-foot"></footer>
+<a class="wa-float" href="https://wa.me/918696778246" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12.04 2a9.9 9.9 0 0 0-8.24 15.36L2.2 21.8l4.56-1.17A9.9 9.9 0 1 0 12.04 2zm5.44 13.66c-.24.68-1.4 1.3-1.93 1.35-.5.05-1.13.07-1.76-.12a13.5 13.5 0 0 1-5.1-3.3 12.4 12.4 0 0 1-2.35-3.3c-.26-.5-.4-1.1-.4-1.7 0-.6.24-1.15.52-1.5.28-.36.62-.85.9-1.1.3-.3.6-.36.8-.36.2 0 .5.02.5.02h.02c.24 0 .4.16.5.4l.86 2.1c.08.18.05.42-.1.6l-.5.63c-.16.2-.18.4-.06.6a9.8 9.8 0 0 0 4.5 4.06c.24.1.44.08.6-.1l.74-.86c.18-.2.42-.24.62-.14l2.1 1c.24.1.4.28.4.5 0 .12-.02.9-.12 1.1z"/></svg>Chat with us</a>
+<script defer src="/assets/site.js?v=80"></script>
+<script defer src="/assets/webping-leads.js?v=3"></script>
+</body>
+</html>

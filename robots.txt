@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+Disallow: /privacy/
+
+Sitemap: https://webping.webpeaker.com/sitemap.xml

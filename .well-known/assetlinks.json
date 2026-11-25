@@ -1,0 +1,12 @@
+[
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.webpeaker.webping",
+      "sha256_cert_fingerprints": [
+        "24:3A:FC:3E:F7:6A:33:E0:0E:5D:67:D9:AF:F2:10:F3:67:F2:71:C6:16:94:0B:DC:F9:3E:6E:08:6A:9F:5C:DF"
+      ]
+    }
+  }
+]
