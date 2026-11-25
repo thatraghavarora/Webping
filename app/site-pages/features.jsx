@@ -13,7 +13,6 @@ export default function SitePage() {
       />
       <link rel={"canonical"} href={"https://webping.webpeaker.com/features"} />
       <link rel={"icon"} type={"image/svg+xml"} href={"/favicon.svg"} />
-      <link rel={"stylesheet"} href={"/assets/site.css?v=100"} />
       <SiteHeader />
       <section className={"fp-hero"}>
         <div className={"wrap fp-hero-grid"}>

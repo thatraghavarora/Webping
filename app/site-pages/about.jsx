@@ -34,7 +34,6 @@ export default function SitePage() {
         }
         rel={"stylesheet"}
       />
-      <link rel={"stylesheet"} href={"/assets/site.css?v=80"} />
       <script type={"application/ld+json"}>
         {
           '\n{"@context":"https://schema.org","@type":"Organization","name":"WebPing","url":"https://webping.webpeaker.com","email":"webping@webpeaker.com","telephone":"+91 8696778246"}\n'
@@ -45,7 +44,6 @@ export default function SitePage() {
           '\n.about-shot{margin:34px auto 0;max-width:1000px;border-radius:18px;overflow:hidden;border:1px solid rgba(0,0,0,.08);box-shadow:0 24px 60px -30px rgba(15,26,46,.35);background:#fff}\n.about-shot img{display:block;width:100%;height:auto}\n.about-shot figcaption{padding:14px 20px;font-size:14px;color:#5a6478;text-align:center}\n.about-img{width:100%;height:auto;border-radius:16px;box-shadow:0 20px 45px -25px rgba(15,26,46,.4);aspect-ratio:3/2;object-fit:cover;background:linear-gradient(135deg,#f4faf6,#fff)}\n.tl{position:relative;max-width:820px;margin:0 auto;padding-left:44px}\n.tl:before{content:"";position:absolute;left:12px;top:4px;bottom:4px;width:2px;background:linear-gradient(#25d366,#86efac,#e2e8f0)}\n.tl-item{position:relative;padding-bottom:36px}\n.tl-item:last-child{padding-bottom:0}\n.tl-dot{position:absolute;left:-38px;top:3px;width:15px;height:15px;border-radius:50%;background:#25d366;border:3px solid #fff;box-shadow:0 0 0 3px rgba(37,211,102,.3)}\n.tl-date{display:inline-block;font-size:12.5px;font-weight:800;letter-spacing:.08em;text-transform:uppercase;color:#0e7a4a;background:rgba(37,211,102,.14);padding:5px 12px;border-radius:999px}\n.tl-body h3{margin:12px 0 8px}\n.tl-img{width:100%;max-width:430px;border-radius:14px;box-shadow:0 18px 40px -22px rgba(15,26,46,.45);margin:12px 0 8px}\n.tl-body p{margin:6px 0 0;max-width:640px}\n'
         }
       </style>
-      <link rel={"stylesheet"} href={"/assets/webping-leads.css?v=3"} />
       <style>
         {
           "main .a-rv,main .a-zoom,main .page-head>*,main .section-head,main .card,main .step,main .tl-item,main .two-col>div,main .stat-row,main .about-shot,main .tl-body,main .tl-dot{opacity:1!important;transform:none!important;visibility:visible!important}"

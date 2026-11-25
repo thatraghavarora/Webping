@@ -36,13 +36,11 @@ export default function SitePage() {
         }
         rel={"stylesheet"}
       />
-      <link rel={"stylesheet"} href={"/assets/site.css?v=80"} />
       <script type={"application/ld+json"}>
         {
           '\n{"@context":"https://schema.org","@type":"Organization","name":"WebPing","url":"https://webping.webpeaker.com","email":"webping@webpeaker.com","telephone":"+91 8696778246"}\n'
         }
       </script>
-      <link rel={"stylesheet"} href={"/assets/webping-leads.css?v=3"} />
       <style>
         {
           "\n.hof-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px}\n.hof-card{background:#fff;border:1px solid var(--line,#e8e4dc);border-radius:22px;padding:24px;box-shadow:0 1px 2px rgba(23,23,23,.03)}\n.hof-card h2,.hof-card h3{margin:0 0 10px;font-size:1.08rem;letter-spacing:-.01em}\n.hof-card p{margin:0 0 .8em;color:var(--sub,#57534e);line-height:1.65;font-size:.96rem}\n.hof-card ul{margin:0 0 .8em 1.2em;color:var(--sub,#57534e);line-height:1.7;font-size:.95rem}\n.hof-ico{width:42px;height:42px;min-width:42px;border-radius:13px;display:inline-flex;align-items:center;justify-content:center;background:#f7fbf8;border:1px solid rgba(14,159,87,.14);color:var(--green-ink);margin-bottom:12px}\n@media(max-width:760px){.hof-grid{grid-template-columns:1fr}}\n"

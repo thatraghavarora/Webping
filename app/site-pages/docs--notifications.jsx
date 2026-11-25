@@ -35,13 +35,11 @@ export default function SitePage() {
         }
         rel={"stylesheet"}
       />
-      <link rel={"stylesheet"} href={"/assets/site.css?v=80"} />
       <script type={"application/ld+json"}>
         {
           '\n{"@context":"https://schema.org","@type":"Organization","name":"WebPing","url":"https://webping.webpeaker.com","email":"webping@webpeaker.com","telephone":"+91 8696778246"}\n'
         }
       </script>
-      <link rel={"stylesheet"} href={"/assets/webping-leads.css?v=3"} />
       <SiteHeader />
       <p className={"breadcrumb"}>
         <a href={"/"}>{"Home"}</a>

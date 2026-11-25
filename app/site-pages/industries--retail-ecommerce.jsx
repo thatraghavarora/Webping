@@ -39,13 +39,11 @@ export default function SitePage() {
         }
         rel={"stylesheet"}
       />
-      <link rel={"stylesheet"} href={"/assets/site.css?v=80"} />
       <script type={"application/ld+json"}>
         {
           '{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Industries","item":"https://webping.webpeaker.com/industries/"},{"@type":"ListItem","position":2,"name":"Retail &amp; e-commerce","item":"https://webping.webpeaker.com/industries/retail-ecommerce/"}]}'
         }
       </script>
-      <link rel={"stylesheet"} href={"/assets/webping-leads.css?v=3"} />
       <SiteHeader />
       <main>
         <p className={"breadcrumb"}>

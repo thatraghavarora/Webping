@@ -37,8 +37,6 @@ export default function SitePage() {
         }
         rel={"stylesheet"}
       />
-      <link rel={"stylesheet"} href={"/assets/site.css?v=100"} />
-      <link rel={"stylesheet"} href={"/assets/webping-leads.css?v=3"} />
       <SiteHeader />
       <section className={"fp-hero sec-hero"} id={"hero"}>
         {"\n  "}

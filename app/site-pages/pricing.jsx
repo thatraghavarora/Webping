@@ -36,8 +36,6 @@ export default function SitePage() {
         }
         rel={"stylesheet"}
       />
-      <link rel={"stylesheet"} href={"/assets/site.css?v=90"} />
-      <link rel={"stylesheet"} href={"/assets/webping-leads.css?v=3"} />
       <SiteHeader />
       <main>
         {"\n"}
