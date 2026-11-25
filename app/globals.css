@@ -1,6 +1,32 @@
 @import "tailwindcss/theme.css" layer(theme);
 @import "tailwindcss/utilities.css" layer(utilities);
 
+.wp-badges { min-width: 0; }
+.wp-badge-window { overflow: hidden; }
+.wp-badge-track { display: flex; width: max-content; animation: wp-badge-slide 28s linear infinite; }
+.wp-badge-list {
+  display: flex;
+  flex: none;
+  gap: .75rem;
+  list-style: none;
+  margin: 0;
+  padding: .25rem .75rem .25rem 0;
+  white-space: nowrap;
+}
+.wp-badges:hover .wp-badge-track { animation-play-state: paused; }
+.wp-badges button { margin-top: .375rem; font-size: .8rem; text-decoration: underline; }
+.wp-badges[data-paused="true"] .wp-badge-track { width: auto; animation: none; }
+.wp-badges[data-paused="true"] .wp-badge-list { width: 100%; flex-wrap: wrap; white-space: normal; }
+.wp-badges[data-paused="true"] .wp-badge-list[aria-hidden] { display: none; }
+
+@keyframes wp-badge-slide { to { transform: translateX(-50%); } }
+
+@media (prefers-reduced-motion: reduce) {
+  .wp-badge-track { width: auto; animation: none; }
+  .wp-badge-list { width: 100%; flex-wrap: wrap; white-space: normal; }
+  .wp-badge-list[aria-hidden], .wp-badges button { display: none; }
+}
+
 
 
 @keyframes webping-card-enter {

@@ -1,6 +1,7 @@
 import SiteHeader from "../components/SiteHeader";
 import SiteFooter from "../components/SiteFooter";
 import AnimatedContent from "../components/AnimatedContent";
+import TrustBadges from "../components/TrustBadges";
 export default function SitePage() {
   return (
     <>
@@ -224,70 +225,7 @@ export default function SitePage() {
                 {"."}
               </p>
               {"\n    "}
-              <div className={"trust-chips"}>
-                {"\n      "}
-                <span className={"chip-badge"}>
-                  <svg
-                    className={"cb-ico"}
-                    viewBox={"0 0 24 24"}
-                    fill={"none"}
-                    stroke={"currentColor"}
-                    strokeWidth={"2.2"}
-                    strokeLinecap={"round"}
-                    strokeLinejoin={"round"}
-                    aria-hidden={"true"}
-                  >
-                    <path
-                      d={"M22 11.1V12a10 10 0 0 1-20 0 10 10 0 0 1 20-1.4"}
-                    />
-                    <path d={"m8.5 11.7 2.3 2.3 4.7-5"} />
-                  </svg>
-                  {" Cloud API ready"}
-                </span>
-                {"\n      "}
-                <span className={"chip-badge b2"}>
-                  <svg
-                    className={"cb-ico"}
-                    viewBox={"0 0 24 24"}
-                    fill={"none"}
-                    stroke={"currentColor"}
-                    strokeWidth={"2.2"}
-                    strokeLinecap={"round"}
-                    strokeLinejoin={"round"}
-                    aria-hidden={"true"}
-                  >
-                    <rect
-                      x={"3"}
-                      y={"11"}
-                      width={"18"}
-                      height={"11"}
-                      rx={"2"}
-                    />
-                    <path d={"M7 11V7a5 5 0 0 1 10 0v4"} />
-                  </svg>
-                  {" Self-hosted data"}
-                </span>
-                {"\n      "}
-                <span className={"chip-badge b3"}>
-                  <svg
-                    className={"cb-ico"}
-                    viewBox={"0 0 24 24"}
-                    fill={"none"}
-                    stroke={"currentColor"}
-                    strokeWidth={"2.2"}
-                    strokeLinecap={"round"}
-                    strokeLinejoin={"round"}
-                    aria-hidden={"true"}
-                  >
-                    <path d={"M3 12a9 9 0 0 1 15.3-6.4L21 8"} />
-                    <path d={"M21 3v5h-5"} />
-                    <path d={"M21 12a9 9 0 0 1-15.3 6.4L3 16"} />
-                    <path d={"M3 21v-5h5"} />
-                  </svg>
-                  {" 1-day full refund"}
-                </span>
-                {"\n    "}
-              </div>
+              <TrustBadges />
               {"\n    "}
               <div className={"client-logos"}>
                 {"\n      "}

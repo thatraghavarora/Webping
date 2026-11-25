@@ -140,7 +140,7 @@
     '.section-head', '.page-head > *', '.breadcrumb',
     '.card', '.case-card', '.int-card', '.metric-card', '.step',
     '.plan', '.plan-mini', '.price-card', '.bill-card', '.faq', '.toc li', '.shot', '.stat',
-    '.trust-card', '.trust-copy', '.trust-chips > *', '.chip-badge',
+    '.trust-card', '.trust-copy', '.trust-chips > *', '.chip-badge:not(.wp-badge-list > *)',
     '.codebox', '.tool-box', '.feat-row > div', '.two-col > div',
     '.jt-bar', '.jt-pane > div', '.jt-pane > .shot',
     '.cta-band .wrap > *', '.orbit-wrap > div', '.final-cta .wrap > *',
