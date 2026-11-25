@@ -2,7 +2,7 @@
 
 WebPing marketing website source code.
 
-The repository contains the public HTML, CSS, JavaScript, PHP, images, documentation, blog, administration interface, and city landing pages used by the marketing website. The `/app` CRM is a separate Next.js application and is not included here.
+The repository contains the WebPing marketing site. The `/app` CRM is a separate deployment.
 
 Server credentials and `leads-config.php` are intentionally excluded.
 
@@ -11,10 +11,15 @@ Server credentials and `leads-config.php` are intentionally excluded.
 Run `npm install`, then `npm run dev`. For production output, run
 `npm run build` followed by `npm start`.
 
-The Next.js renderer builds React elements from the original static page
-markup. The original styles and browser scripts remain compatibility inputs.
-Tailwind utilities are available without Preflight, and cards reveal on scroll
-on browsers that support scroll-driven animations and allow motion.
+Edit page components in `app/site-pages/` and register new URLs in
+`app/site-pages/routes.js`. The shared header and footer live in
+`app/components/`. Next.js renders these JSX modules directly. The source tree
+does not require HTML page files or HTML fragments.
+
+Existing styles and browser scripts are retained to preserve the design and
+interactions. Tailwind utilities are available without Preflight, and cards
+reveal on scroll on browsers that support scroll-driven animations and allow
+motion.
 
 The city landing pages and their sitemap entries have been removed. The
 PHP-backed blog, lead administration and disclosure workflows still require

@@ -132,27 +132,6 @@
 
   bindHeaderUI();
 
-  /* common chrome (build 30): every page gets the same header & footer from
-     /partials — imported at runtime and swapped over whatever static markup
-     shipped with the page, then nav bindings re-run. Fetch failure = keep
-     the page's own copy, so nothing ever renders bare. */
-  (function () {
-    var head = document.querySelector('header.site-head');
-    var foot = document.querySelector('footer.site-foot');
-    if (!(head && foot && window.fetch)) return;
-    Promise.all([
-      fetch('/partials/site-header.html').then(function (r) { return r.text(); }),
-      fetch('/partials/site-footer.html').then(function (r) { return r.text(); })
-    ]).then(function (parts) {
-      var h = document.querySelector('header.site-head');
-      var f = document.querySelector('footer.site-foot');
-      if (!h || !f) return;
-      h.outerHTML = parts[0];
-      f.outerHTML = parts[1];
-      bindHeaderUI();
-    }).catch(function () {});
-  })();
-
   if (/[?&]noanim/.test(location.search)) return;
   var reduced = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
   if (reduced || !('IntersectionObserver' in window)) return;
