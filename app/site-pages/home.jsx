@@ -225,9 +225,8 @@ export default function SitePage() {
                 {"."}
               </p>
               {"\n    "}
-              <TrustBadges />
-              {"\n    "}
               <div className={"client-logos"}>
+                <TrustBadges />
                 {"\n      "}
                 <p className={"logos-label"}>{"Trusted by teams at"}</p>
                 {"\n      "}

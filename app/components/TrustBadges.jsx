@@ -1,7 +1,3 @@
-"use client";
-
-import { useState } from "react";
-
 const badges = [
   ["Cloud API ready", "m5 12 4 4L19 6"],
   ["Self-hosted data", "M7 10V7a5 5 0 0 1 10 0v3M5 10h14v10H5z"],
@@ -11,9 +7,9 @@ const badges = [
   ["Workflow automation", "M13 2 3 14h9l-1 8 10-12h-9z"],
 ];
 
-function BadgeList({ duplicate = false }) {
+export default function TrustBadges() {
   return (
-    <ul className="wp-badge-list" aria-hidden={duplicate || undefined}>
+    <ul className="wp-badge-list" aria-label="WebPing highlights" tabIndex={0}>
       {badges.map(([label, icon], index) => (
         <li key={label} className={`chip-badge b${index + 1}`}>
           <svg className="cb-ico" viewBox="0 0 24 24" fill="none"
@@ -25,22 +21,5 @@ function BadgeList({ duplicate = false }) {
         </li>
       ))}
     </ul>
-  );
-}
-
-export default function TrustBadges() {
-  const [paused, setPaused] = useState(false);
-  return (
-    <div className="wp-badges" data-paused={paused}>
-      <div className="wp-badge-window">
-        <div className="wp-badge-track">
-          <BadgeList />
-          <BadgeList duplicate />
-        </div>
-      </div>
-      <button type="button" onClick={() => setPaused((value) => !value)}>
-        {paused ? "Play badges" : "Pause badges"}
-      </button>
-    </div>
   );
 }
