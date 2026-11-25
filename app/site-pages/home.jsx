@@ -1,5 +1,7 @@
 import SiteHeader from "../components/SiteHeader";
 import SiteFooter from "../components/SiteFooter";
+import AnimatedContent from "../components/AnimatedContent";
+import InboxArtwork from "../components/InboxArtwork";
 export default function SitePage() {
   return (
     <>
@@ -120,7 +122,7 @@ export default function SitePage() {
                 {"\n      "}
               </div>
               {"\n      "}
-              <div className={"hero-mock"}>
+              <AnimatedContent className="hero-mock">
                 {"\n        "}
                 <p className={"tag-chip hot"}>
                   <span
@@ -170,7 +172,7 @@ export default function SitePage() {
                 {"\n        "}
                 <div className={"mock-glass"} />
                 {"\n      "}
-              </div>
+              </AnimatedContent>
               {"\n    "}
             </div>
             {"\n  "}
@@ -461,6 +463,7 @@ export default function SitePage() {
           {"\n"}
         </section>
         {"\n\n"}
+        <InboxArtwork />
         <section className={"section sec-lav jx-sec"}>
           {"\n  "}
           <div className={"wrap"}>
